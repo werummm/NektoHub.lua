@@ -158,7 +158,7 @@ Tab:AddButton({
 	Callback = function()
 		ESPLib:CreateESPTag({
 			Text = "Mutant",
-			Part = game.Workspace:WaitForChild("Larry").DeathHitbox,
+			Part = game.Workspace:WaitForChild("Mutant").DeathHitbox,
 			TextSize = 9,
 			TextColor = Color3.new(255,0,0),
 			BoxColor = Color3.new(255,0,0),
